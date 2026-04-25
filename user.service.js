@@ -7,7 +7,7 @@ function createUser(user) {
     throw new Error("Email is required");
   }
 
-  if (!user.email.includes("@")) {
+  if (!user.email.includes("#")) {
     throw new Error("Invalid email");
   }
 
